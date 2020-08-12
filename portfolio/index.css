@@ -1,0 +1,150 @@
+
+. {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+ }
+
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    background-image: url(./img/background.jpg);
+    background-size: contain;
+    
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    background: rgba(2, 2, 2, 0.2);
+}
+
+.logo-container,.nav-links,.github {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.logo-container h3 {
+    margin-left: 10px;
+    color: whitesmoke;
+
+}
+
+.logo {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+}
+.nav-links {
+    flex: 2.5;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    font-family: 'Baloo Tamma 2', cursive;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.github {
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.linkedin, .instagram {
+    margin-right: 20px;
+}
+
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.introduction {
+    flex: 1;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+    text-align: left;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+
+.cover {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    float: right;
+}
+
+.cover img {
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 13%;
+    top: 25%;
+    padding: 0;
+    margin: 0;
+}
+
+}
+.bigbutton {
+	padding: 50px 0px 0px 0px;
+}
+.portfolio {
+	border: 2px solid #4e4e4e;
+	background:#FFE999;
+	color: #4e4e4e;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+    font-size: 16px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+footer {
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.copyright h3 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
